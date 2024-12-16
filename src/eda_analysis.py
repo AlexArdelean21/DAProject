@@ -1,15 +1,18 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
+import os
+
+current_dir = os.path.dirname(__file__)
+file_path = os.path.join(current_dir, "../data/starbucks_menu.csv")
 
 sns.set(style="whitegrid")
-file_path = "../data/cleaned_starbucks_menu.csv"
 data = pd.read_csv(file_path)
 
 # ---- 1. Distribution of Numerical Features ----
-numeric_columns = ['Calories', 'Total Fat (g)', 'Sodium (mg)',
-                   'Total Carbohydrates (g)', 'Cholesterol (mg)',
-                   'Sugars (g)', 'Protein (g)', 'Caffeine (mg)']
+data.columns = data.columns.str.strip()
+numeric_columns = data.select_dtypes(include=['number']).columns
+
 
 # Plot histograms for each numerical column
 for col in numeric_columns:

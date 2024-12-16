@@ -2,9 +2,11 @@ import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
+import os
 
-# Load the cleaned data
-file_path = "../data/cleaned_starbucks_menu.csv"
+current_dir = os.path.dirname(__file__)
+file_path = os.path.join(current_dir, "../data/starbucks_menu.csv")
+
 data = pd.read_csv(file_path)
 
 # ---- 1. Check for Remaining NaNs ----
@@ -12,13 +14,12 @@ print("Checking for NaN values in numerical data before PCA:")
 print(data.isnull().sum())
 
 # Select only the numerical columns
-numeric_columns = ['Calories', 'Total Fat (g)', 'Sodium (mg)',
-                   'Total Carbohydrates (g)', 'Cholesterol (mg)',
-                   'Sugars (g)', 'Protein (g)', 'Caffeine (mg)']
-data_numeric = data[numeric_columns]
+data.columns = data.columns.str.strip()
+data_numeric = data.select_dtypes(include=['number'])
+
 
 # Double-check and handle missing values
-data_numeric = data_numeric.fillna(data_numeric.mean())
+data_numeric = data.select_dtypes(include=['number'])
 
 # ---- 2. Standardize the Data ----
 scaler = StandardScaler()

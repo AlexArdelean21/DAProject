@@ -2,9 +2,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
+import os
 
-file_path = "../output/pca_results.csv"
+current_dir = os.path.dirname(__file__)
+file_path = os.path.join(current_dir, "../data/starbucks_menu.csv")
+
 pca_data = pd.read_csv(file_path)
+print(pca_data.info())  # Ensure all columns are numerical
 
 # ---- 1. Find the Optimal Number of Clusters (Elbow Method) ----
 inertia = []  # List to store inertia values for each k

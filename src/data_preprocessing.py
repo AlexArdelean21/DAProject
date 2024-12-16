@@ -1,45 +1,39 @@
 import pandas as pd
 
 # Load the dataset
-file_path = "../data/starbucks_menu.csv"
+file_path = "../data/starbucks_menu.csv"  # Path to the original dataset
 data = pd.read_csv(file_path)
 
-print("First 5 rows of the dataset:")
-print(data.head())
+# ---- 1. Clean Column Names ----
+data.columns = data.columns.str.strip()  # Strip leading/trailing spaces from column names
 
-print("\nDataset Info:")
-print(data.info())
+# ---- 2. Retain Necessary Columns ----
+columns_to_keep = [
+    'Beverage_category',   # Keep this column for cluster interpretation
+    'Calories', 'Total Fat (g)', 'Trans Fat (g)', 'Saturated Fat (g)',
+    'Sodium (mg)', 'Total Carbohydrates (g)', 'Cholesterol (mg)',
+    'Sugars (g)', 'Protein (g)', 'Caffeine (mg)'
+]
+data = data[columns_to_keep]
 
-print("\nMissing values in each column:")
-print(data.isnull().sum())
+# ---- 3. Convert Columns to Numeric ----
+# Exclude 'Beverage_category' and convert all other columns to numeric
+for col in data.columns:
+    if col != 'Beverage_category':
+        data[col] = pd.to_numeric(data[col], errors='coerce')  # Coerce invalid entries to NaN
 
-print("\nBasic statistics for numerical columns:")
-print(data.describe())
+# ---- 4. Handle Missing Values ----
+# Separate numerical columns for processing
+data_numeric = data.drop(columns=['Beverage_category'])
 
-# Fix column names: Strip leading/trailing spaces
-data.columns = data.columns.str.strip()
+# Fill missing values in numerical columns with their column means
+data_numeric = data_numeric.fillna(data_numeric.mean())
 
-print("Cleaned Column Names:")
-print(data.columns)
+# Combine 'Beverage_category' back with processed numerical data
+data_cleaned = pd.concat([data[['Beverage_category']], data_numeric], axis=1)
 
-# Handle missing value in 'Caffeine (mg)'
-# Convert 'Caffeine (mg)' to numeric (forcing errors='coerce' will handle non-numeric data)
-data['Caffeine (mg)'] = pd.to_numeric(data['Caffeine (mg)'], errors='coerce')
+# ---- 5. Save the Cleaned Dataset ----
+output_path = "../data/cleaned_starbucks_menu.csv"
+data_cleaned.to_csv(output_path, index=False)
 
-# Fill the missing value in 'Caffeine (mg)' with the column mean
-data['Caffeine (mg)'] = data['Caffeine (mg)'].fillna(data['Caffeine (mg)'].mean())
-
-# Convert 'Total Fat (g)' to numeric (handling non-numeric entries if any)
-data['Total Fat (g)'] = pd.to_numeric(data['Total Fat (g)'], errors='coerce')
-
-# Verify changes
-print("\nMissing values after cleaning:")
-print(data.isnull().sum())
-
-print("\nUpdated Data Types:")
-print(data.dtypes)
-
-# Save cleaned data for future analysis
-cleaned_file_path = "../data/cleaned_starbucks_menu.csv"
-data.to_csv(cleaned_file_path, index=False)
-print(f"\nCleaned data saved to: {cleaned_file_path}")
+print(f"Cleaned data saved to: {output_path}")
