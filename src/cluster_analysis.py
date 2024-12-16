@@ -54,6 +54,6 @@ print(f"Clustered data saved to: {output_path}")
 numeric_columns = data.select_dtypes(include=['number']).columns
 cluster_summary = data.groupby('Cluster')[numeric_columns].mean()
 
-ssummary_path = os.path.join(current_dir, "../output/cluster_summary.csv")
+summary_path = os.path.join(current_dir, "../output/cluster_summary.csv")
 cluster_summary.to_csv(summary_path)
 print(f"Cluster summary saved to: {summary_path}")
