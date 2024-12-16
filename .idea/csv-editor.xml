@@ -17,6 +17,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\output\cluster_summary.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\output\clustered_pca_results.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\output\pca_results.csv">
           <value>
             <Attribute>
