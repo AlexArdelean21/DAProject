@@ -1,7 +1,7 @@
 # Starbucks Nutritional Analysis
 
 ## Project Overview
-This project analyzes the nutritional information of Starbucks beverages to identify meaningful patterns and groupings. Using Principal Component Analysis (PCA) for dimensionality reduction and K-Means clustering, beverages were segmented into distinct nutritional clusters. The project provides insights into calorie content, sugar levels, and other key nutritional metrics, offering practical value for health-conscious consumers and Starbucks menu optimization.
+This project analyzes the nutritional information of Starbucks beverages to identify meaningful patterns and groupings. Using **Principal Component Analysis (PCA)** for dimensionality reduction and **Hierarchical Cluster Analysis (HCA)**, beverages were segmented into distinct nutritional clusters. The project provides insights into calorie content, sugar levels, and other key nutritional metrics, offering practical value for health-conscious consumers and Starbucks menu optimization.
 
 ---
 
@@ -18,13 +18,13 @@ Starbucks_Nutritional_Analysis/
 │   ├── data_preprocessing.py          # Data cleaning and preparation
 │   ├── eda_analysis.py                # Exploratory Data Analysis (EDA)
 │   ├── pca_analysis.py                # Principal Component Analysis (PCA)
-│   ├── cluster_analysis.py            # Clustering with K-Means
+│   ├── hierarchical_clustering.py     # Clustering with HCA
 │   ├── main.py                        # Workflow automation script
 │
 ├── output/
 │   ├── pca_results.csv                # PCA-transformed data
-│   ├── clustered_pca_results.csv      # Data with cluster assignments
-│   ├── cluster_summary.csv            # Nutritional summaries for each cluster
+│   ├── hierarchical_clustered_results.csv # Data with cluster assignments
+│   ├── hierarchical_cluster_summary.csv   # Nutritional summaries for each cluster
 │
 ├── docs/
 │   ├── Project_Report.docx            # Detailed project report
@@ -45,7 +45,7 @@ Ensure you have the following installed:
   - matplotlib
   - seaborn
   - scikit-learn
-
+  - scipy
 
 ### Running the Workflow
 Execute the entire workflow using the `main.py` script:
@@ -75,20 +75,20 @@ The dataset was sourced from Kaggle:
 - Key drivers of variance include `Calories`, `Sugars (g)`, and `Total Fat (g)`.
 
 ### Clustering
-- K-Means identified 3 clusters:
-  - **Cluster 0**: Low-calorie, low-fat options (e.g., brewed teas).
-  - **Cluster 1**: High-calorie, high-sugar beverages (e.g., Frappuccinos).
-  - **Cluster 2**: Protein-rich beverages (e.g., lattes).
+- Hierarchical Cluster Analysis (HCA) identified 3 clusters:
+  - **Cluster 1**: Low-calorie, low-sugar options (e.g., brewed teas).
+  - **Cluster 2**: High-calorie and high-sugar beverages (e.g., Frappuccinos).
+  - **Cluster 3**: Moderate-calorie, protein-rich beverages (e.g., lattes).
 
 ### Visualizations
-- **Scatter Plots**: Showed cluster separations in PCA space.
+- **Dendrograms**: Visualized clustering hierarchy and thresholds.
 - **Bar Charts**: Compared mean nutritional values across clusters.
 
 ---
 
 ## Outputs
-- **Cluster Summaries**: `output/cluster_summary.csv` contains average nutritional values for each cluster.
-- **Visualizations**: Scatter plots and bar charts generated during analysis.
+- **Cluster Summaries**: `output/hierarchical_cluster_summary.csv` contains average nutritional values for each cluster.
+- **Visualizations**: Dendrograms and bar charts generated during analysis.
 
 ---
 
@@ -96,3 +96,4 @@ The dataset was sourced from Kaggle:
 - Andrici Sabina
 - Ardelean Alexandru
 - Boncu Ana Maria
+- Anghelescu Adelina

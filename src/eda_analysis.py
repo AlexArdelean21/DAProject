@@ -15,13 +15,13 @@ numeric_columns = data.select_dtypes(include=['number']).columns
 
 
 # Plot histograms for each numerical column
-for col in numeric_columns:
-    plt.figure(figsize=(6, 4))
-    sns.histplot(data[col], bins=20, kde=True, color="blue")
-    plt.title(f'Distribution of {col}')
-    plt.xlabel(col)
-    plt.ylabel("Frequency")
-    plt.show()
+# for col in numeric_columns:
+#     plt.figure(figsize=(6, 4))
+#     sns.histplot(data[col], bins=20, kde=True, color="blue")
+#     plt.title(f'Distribution of {col}')
+#     plt.xlabel(col)
+#     plt.ylabel("Frequency")
+#     plt.show()
 
 # ---- 2. Correlation Heatmap ----
 plt.figure(figsize=(10, 8))
@@ -37,9 +37,9 @@ sns.pairplot(data[top_features])
 plt.show()
 
 # ---- 4. Boxplots for Outlier Detection ----
-for col in numeric_columns:
-    plt.figure(figsize=(6, 4))
-    sns.boxplot(y=data[col])
-    plt.title(f'Boxplot of {col}')
-    plt.ylabel(col)
-    plt.show()
+# for col in numeric_columns:
+#     plt.figure(figsize=(6, 4))
+#     sns.boxplot(y=data[col])
+#     plt.title(f'Boxplot of {col}')
+#     plt.ylabel(col)
+#     plt.show()
