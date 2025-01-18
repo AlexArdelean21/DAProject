@@ -1,0 +1,243 @@
+Beverage_category,Calories,Total Fat (g),Trans Fat (g),Saturated Fat (g),Sodium (mg),Total Carbohydrates (g),Cholesterol (mg),Sugars (g),Protein (g),Caffeine (mg),Cluster
+Coffee,3,0.1,0.0,0.0,0,5,0,0,0.3,175.0,7
+Coffee,4,0.1,0.0,0.0,0,10,0,0,0.5,260.0,1
+Coffee,5,0.1,0.0,0.0,0,10,0,0,1.0,330.0,1
+Coffee,5,0.1,0.0,0.0,0,10,0,0,1.0,410.0,2
+Classic Espresso Drinks,70,0.1,0.1,0.0,5,75,10,9,6.0,75.0,5
+Classic Espresso Drinks,100,3.5,2.0,0.1,15,85,10,9,6.0,75.0,6
+Classic Espresso Drinks,70,2.5,0.4,0.0,0,65,6,4,5.0,75.0,5
+Classic Espresso Drinks,100,0.2,0.2,0.0,5,120,15,14,10.0,75.0,4
+Classic Espresso Drinks,150,6.0,3.0,0.2,25,135,15,14,10.0,75.0,14
+Classic Espresso Drinks,110,4.5,0.5,0.0,0,105,10,6,8.0,75.0,4
+Classic Espresso Drinks,130,0.3,0.2,0.0,5,150,19,18,13.0,150.0,17
+Classic Espresso Drinks,190,7.0,3.5,0.2,30,170,19,17,12.0,150.0,19
+Classic Espresso Drinks,150,5.0,0.5,0.0,0,130,13,8,10.0,150.0,17
+Classic Espresso Drinks,170,0.4,0.3,0.0,10,190,25,23,16.0,150.0,19
+Classic Espresso Drinks,240,9.0,4.5,0.3,35,220,24,22,16.0,150.0,19
+Classic Espresso Drinks,190,7.0,1.0,0.0,0,170,16,11,13.0,150.0,19
+Classic Espresso Drinks,110,1.5,1.0,0.0,5,60,21,17,7.0,85.0,6
+Classic Espresso Drinks,130,4.0,2.0,0.1,10,70,21,17,6.0,85.0,6
+Classic Espresso Drinks,110,3.5,1.0,0.0,0,55,19,13,6.0,85.0,6
+Classic Espresso Drinks,170,2.0,1.0,0.0,5,100,32,27,10.0,95.0,15
+Classic Espresso Drinks,200,6.0,3.5,0.1,20,115,32,26,10.0,95.0,16
+Classic Espresso Drinks,180,5.0,1.5,0.0,0,85,28,20,9.0,95.0,15
+Classic Espresso Drinks,220,2.5,1.5,0.0,5,125,43,34,13.0,175.0,18
+Classic Espresso Drinks,260,8.0,4.5,0.2,25,140,42,34,13.0,175.0,22
+Classic Espresso Drinks,230,7.0,2.0,0.0,0,105,37,26,11.0,175.0,18
+Classic Espresso Drinks,280,3.0,2.0,0.0,10,160,54,44,17.0,180.0,22
+Classic Espresso Drinks,340,11.0,6.0,0.2,30,180,53,43,17.0,180.0,21
+Classic Espresso Drinks,290,9.0,2.5,0.0,0,140,47,33,14.0,180.0,22
+Classic Espresso Drinks,100,0.1,0.1,0.0,5,70,19,18,6.0,75.0,6
+Classic Espresso Drinks,130,3.5,1.5,0.1,15,80,18,17,6.0,75.0,6
+Classic Espresso Drinks,110,2.5,0.3,0.0,0,60,16,13,5.0,75.0,6
+Classic Espresso Drinks,150,0.2,0.1,0.0,5,110,28,27,9.0,75.0,15
+Classic Espresso Drinks,200,5.0,2.5,0.2,20,125,28,27,9.0,75.0,16
+Classic Espresso Drinks,160,4.0,0.5,0.0,0,95,23,20,7.0,75.0,15
+Classic Espresso Drinks,200,0.3,0.2,0.0,5,140,37,35,12.0,150.0,18
+Classic Espresso Drinks,250,6.0,3.5,0.2,25,150,37,35,12.0,150.0,22
+Classic Espresso Drinks,210,5.0,0.5,0.0,0,120,31,26,9.0,150.0,18
+Classic Espresso Drinks,250,0.3,0.2,0.0,10,180,47,45,15.0,150.0,22
+Classic Espresso Drinks,320,9.0,4.5,0.3,35,200,46,44,15.0,150.0,21
+Classic Espresso Drinks,270,7.0,1.0,0.0,0,160,39,33,12.0,150.0,22
+Classic Espresso Drinks,5,0.0,0.0,0.0,0,5,1,0,0.4,75.0,7
+Classic Espresso Drinks,10,0.0,0.0,0.0,0,10,2,0,1.0,150.0,7
+Classic Espresso Drinks,15,0.0,0.0,0.0,0,15,3,0,1.0,225.0,1
+Classic Espresso Drinks,25,0.0,0.0,0.0,0,15,4,0,1.0,300.0,1
+Classic Espresso Drinks,50,0.1,0.1,0.0,5,60,8,7,5.0,75.0,5
+Classic Espresso Drinks,80,3.0,1.5,0.1,10,70,8,7,5.0,75.0,5
+Classic Espresso Drinks,50,1.5,0.2,0.0,0,40,4,3,3.0,75.0,5
+Classic Espresso Drinks,60,0.1,0.1,0.0,5,70,9,8,6.0,75.0,5
+Classic Espresso Drinks,90,3.5,1.5,0.1,15,80,9,8,6.0,75.0,6
+Classic Espresso Drinks,70,3.0,0.4,0.0,0,65,7,4,5.0,75.0,5
+Classic Espresso Drinks,80,0.2,0.1,0.0,5,90,12,10,8.0,150.0,17
+Classic Espresso Drinks,120,4.0,2.0,0.1,15,100,12,10,8.0,150.0,17
+Classic Espresso Drinks,100,3.5,0.4,0.0,0,80,9,5,7.0,150.0,17
+Classic Espresso Drinks,110,0.2,0.2,0.0,5,120,16,14,10.0,150.0,17
+Classic Espresso Drinks,150,6.0,3.0,0.2,25,135,16,14,10.0,150.0,17
+Classic Espresso Drinks,120,4.5,0.5,0.0,0,110,11,7,9.0,150.0,17
+Classic Espresso Drinks,5,0.0,0.0,0.0,0,0,1,0,0.4,75.0,7
+Classic Espresso Drinks,10,0.0,0.0,0.0,0,1,2,0,1.0,150.0,7
+Classic Espresso Drinks,60,0.1,0.1,0.0,5,80,9,8,6.0,75.0,5
+Classic Espresso Drinks,100,0.2,0.1,0.0,5,125,14,13,9.0,75.0,4
+Classic Espresso Drinks,120,0.3,0.2,0.0,5,160,18,16,12.0,150.0,17
+Classic Espresso Drinks,160,0.3,0.2,0.0,10,200,24,21,15.0,150.0,19
+Signature Espresso Drinks,100,1.0,0.5,0.0,5,70,17,15,6.0,75.0,6
+Signature Espresso Drinks,120,4.0,2.0,0.1,15,80,16,15,5.0,75.0,6
+Signature Espresso Drinks,100,3.0,1.0,0.0,0,60,14,11,4.0,75.0,6
+Signature Espresso Drinks,140,1.0,0.5,0.0,5,105,25,24,8.0,75.0,15
+Signature Espresso Drinks,180,5.0,3.0,0.1,20,115,25,23,8.0,75.0,16
+Signature Espresso Drinks,150,4.5,1.0,0.0,0,90,21,17,7.0,75.0,15
+Signature Espresso Drinks,190,1.0,1.0,0.0,10,130,35,32,11.0,150.0,18
+Signature Espresso Drinks,240,7.0,3.5,0.2,25,150,34,32,10.0,150.0,22
+Signature Espresso Drinks,200,5.0,1.0,0.0,5,115,29,24,9.0,150.0,18
+Signature Espresso Drinks,240,1.0,1.0,0.0,10,170,43,41,13.0,150.0,22
+Signature Espresso Drinks,300,8.0,4.5,0.2,35,180,43,40,13.0,150.0,21
+Signature Espresso Drinks,250,7.0,1.5,0.0,5,140,36,31,11.0,150.0,22
+Signature Espresso Drinks,180,3.0,2.0,0.0,5,120,31,29,7.0,75.0,16
+Signature Espresso Drinks,200,6.0,3.5,0.1,15,125,31,29,7.0,75.0,16
+Signature Espresso Drinks,180,5.0,2.5,0.0,0,110,28,25,6.0,75.0,16
+Signature Espresso Drinks,270,4.5,3.5,0.0,5,190,47,45,12.0,75.0,20
+Signature Espresso Drinks,310,9.0,6.0,0.1,20,200,46,44,11.0,75.0,27
+Signature Espresso Drinks,280,8.0,3.5,0.0,0,170,42,39,10.0,75.0,20
+Signature Espresso Drinks,350,6.0,4.5,0.0,10,240,61,58,15.0,150.0,13
+Signature Espresso Drinks,400,11.0,7.0,0.2,25,250,61,58,15.0,150.0,13
+Signature Espresso Drinks,370,10.0,5.0,0.0,0,220,56,51,13.0,150.0,13
+Signature Espresso Drinks,450,7.0,6.0,0.0,10,310,78,74,19.0,150.0,11
+Signature Espresso Drinks,510,15.0,9.0,0.2,35,330,77,74,19.0,150.0,11
+Signature Espresso Drinks,460,13.0,6.0,0.0,5,290,70,64,16.0,150.0,11
+Signature Espresso Drinks,130,1.5,1.0,0.0,5,70,26,23,7.0,10.0,3
+Signature Espresso Drinks,150,4.5,2.5,0.1,15,80,26,22,7.0,10.0,3
+Signature Espresso Drinks,130,3.5,1.0,0.0,0,60,23,18,6.0,10.0,3
+Signature Espresso Drinks,190,2.0,1.0,0.0,5,110,37,32,11.0,20.0,32
+Signature Espresso Drinks,230,7.0,3.5,0.2,20,120,37,32,10.0,20.0,31
+Signature Espresso Drinks,200,6.0,1.5,0.0,0,95,32,25,9.0,20.0,32
+Signature Espresso Drinks,240,2.5,1.5,0.0,5,140,48,41,14.0,25.0,31
+Signature Espresso Drinks,290,9.0,5.0,0.2,25,160,47,41,14.0,25.0,29
+Signature Espresso Drinks,250,7.0,2.0,0.0,0,125,41,32,12.0,25.0,31
+Signature Espresso Drinks,320,3.0,2.0,0.0,10,180,63,55,18.0,30.0,29
+Signature Espresso Drinks,380,11.0,6.0,0.3,35,200,63,54,17.0,30.0,27
+Signature Espresso Drinks,330,9.0,2.5,0.0,0,160,55,44,15.0,30.0,29
+Signature Espresso Drinks,140,0.0,0.0,0.0,0,10,35,33,0.0,0.0,3
+Signature Espresso Drinks,210,0.0,0.0,0.0,0,15,53,49,0.0,0.0,30
+Signature Espresso Drinks,280,0.0,0.0,0.0,0,20,70,65,0.0,0.0,30
+Signature Espresso Drinks,360,0.0,0.0,0.0,0,25,89,83,0.0,0.0,30
+Tazo® Tea Drinks,0,0.0,0.0,0.0,0,0,0,0,0.0,89.52054794520548,7
+Tazo® Tea Drinks,0,0.0,0.0,0.0,0,0,0,0,0.0,89.52054794520548,7
+Tazo® Tea Drinks,0,0.0,0.0,0.0,0,0,0,0,0.0,89.52054794520548,7
+Tazo® Tea Drinks,0,0.0,0.0,0.0,0,0,0,0,0.0,89.52054794520548,7
+Tazo® Tea Drinks,100,0.1,0.1,0.0,0,50,22,21,4.0,50.0,6
+Tazo® Tea Drinks,120,2.0,1.0,0.1,10,55,22,21,4.0,50.0,6
+Tazo® Tea Drinks,110,1.5,0.2,0.0,0,45,20,18,3.0,50.0,6
+Tazo® Tea Drinks,160,0.2,0.1,0.0,5,80,34,32,6.0,70.0,15
+Tazo® Tea Drinks,190,3.5,1.5,0.1,15,90,34,32,6.0,70.0,15
+Tazo® Tea Drinks,160,2.5,0.3,0.0,0,70,31,28,5.0,70.0,15
+Tazo® Tea Drinks,210,0.2,0.1,0.0,5,105,45,43,8.0,95.0,16
+Tazo® Tea Drinks,240,4.5,2.0,0.1,20,115,45,42,8.0,95.0,16
+Tazo® Tea Drinks,220,3.5,0.4,0.0,0,90,41,37,6.0,95.0,16
+Tazo® Tea Drinks,260,0.3,0.2,0.0,5,135,57,54,10.0,120.0,20
+Tazo® Tea Drinks,310,6.0,3.0,0.2,25,150,56,53,10.0,120.0,20
+Tazo® Tea Drinks,280,4.5,0.5,0.0,0,115,51,46,8.0,120.0,20
+Tazo® Tea Drinks,130,0.2,0.1,0.0,5,85,26,25,7.0,25.0,3
+Tazo® Tea Drinks,170,4.0,2.0,0.1,15,95,26,25,7.0,25.0,3
+Tazo® Tea Drinks,140,3.0,0.4,0.0,0,70,22,20,6.0,25.0,3
+Tazo® Tea Drinks,210,0.4,0.2,0.0,5,125,42,41,11.0,55.0,31
+Tazo® Tea Drinks,260,6.0,3.0,0.2,25,140,41,40,10.0,55.0,31
+Tazo® Tea Drinks,230,4.5,0.5,0.0,0,110,36,33,9.0,55.0,31
+Tazo® Tea Drinks,290,0.5,0.2,0.0,10,160,57,56,14.0,80.0,20
+Tazo® Tea Drinks,350,8.0,4.0,0.2,30,180,57,55,14.0,80.0,27
+Tazo® Tea Drinks,310,6.0,1.0,0.0,0,140,50,46,11.0,80.0,20
+Tazo® Tea Drinks,370,0.5,0.3,0.0,10,200,73,71,18.0,110.0,13
+Tazo® Tea Drinks,450,10.0,5.0,0.3,40,230,72,71,17.0,110.0,13
+Tazo® Tea Drinks,390,8.0,1.0,0.0,0,180,64,58,14.0,110.0,13
+Tazo® Tea Drinks,80,0.1,0.1,0.0,0,45,16,16,4.0,89.52054794520548,8
+Tazo® Tea Drinks,90,2.0,1.0,0.1,10,50,15,15,3.0,89.52054794520548,8
+Tazo® Tea Drinks,80,1.5,0.2,0.0,0,40,14,13,3.0,89.52054794520548,8
+Tazo® Tea Drinks,120,0.1,0.1,0.0,5,65,23,23,5.0,89.52054794520548,6
+Tazo® Tea Drinks,140,3.0,1.5,0.1,15,75,23,23,5.0,89.52054794520548,6
+Tazo® Tea Drinks,130,2.5,0.3,0.0,0,60,21,19,4.0,89.52054794520548,6
+Tazo® Tea Drinks,150,0.2,0.1,0.0,5,85,31,31,7.0,89.52054794520548,15
+Tazo® Tea Drinks,190,4.0,2.0,0.1,15,95,31,30,7.0,89.52054794520548,15
+Tazo® Tea Drinks,170,3.5,0.4,0.0,0,80,27,25,6.0,89.52054794520548,15
+Tazo® Tea Drinks,190,0.2,0.1,0.0,5,110,39,39,9.0,89.52054794520548,16
+Tazo® Tea Drinks,230,5.0,2.5,0.2,20,125,38,38,9.0,89.52054794520548,16
+Tazo® Tea Drinks,210,4.0,0.5,0.0,0,100,34,32,7.0,89.52054794520548,16
+Tazo® Tea Drinks,80,0.1,0.1,0.0,0,45,16,16,4.0,0.0,3
+Tazo® Tea Drinks,90,2.0,1.0,0.1,10,50,15,15,3.0,0.0,3
+Tazo® Tea Drinks,80,1.5,0.2,0.0,0,40,14,13,3.0,0.0,3
+Tazo® Tea Drinks,120,0.1,0.1,0.0,5,65,23,23,5.0,0.0,3
+Tazo® Tea Drinks,140,3.0,1.5,0.1,15,75,23,23,5.0,0.0,3
+Tazo® Tea Drinks,130,2.5,0.3,0.0,0,60,21,19,4.0,0.0,3
+Tazo® Tea Drinks,150,0.2,0.1,0.0,5,85,31,31,7.0,0.0,3
+Tazo® Tea Drinks,190,4.0,2.0,0.1,15,95,31,30,7.0,0.0,32
+Tazo® Tea Drinks,170,3.5,0.4,0.0,0,80,27,25,6.0,0.0,3
+Tazo® Tea Drinks,190,0.2,0.1,0.0,5,110,39,39,9.0,0.0,32
+Tazo® Tea Drinks,230,5.0,2.5,0.2,20,125,38,38,9.0,0.0,31
+Tazo® Tea Drinks,210,4.0,0.5,0.0,0,100,34,32,7.0,0.0,32
+Shaken Iced Beverages,60,0.0,0.0,0.0,0,4,15,15,0.2,120.0,8
+Shaken Iced Beverages,90,0.1,0.0,0.0,0,5,21,21,0.3,165.0,9
+Shaken Iced Beverages,130,0.1,0.0,0.0,0,5,31,31,0.4,235.0,9
+Shaken Iced Beverages,80,0.1,0.0,0.0,0,25,18,18,2.0,90.0,8
+Shaken Iced Beverages,90,1.0,0.5,0.0,5,25,18,18,2.0,89.52054794520548,8
+Shaken Iced Beverages,80,1.0,0.1,0.0,0,20,17,17,2.0,90.0,8
+Shaken Iced Beverages,110,0.1,0.0,0.0,0,30,24,24,2.0,90.0,8
+Shaken Iced Beverages,120,1.5,0.5,0.0,5,35,24,24,2.0,125.0,8
+Shaken Iced Beverages,110,1.0,0.1,0.0,0,30,23,22,2.0,125.0,8
+Shaken Iced Beverages,160,0.1,0.1,0.0,0,50,36,36,4.0,125.0,10
+Shaken Iced Beverages,180,2.0,1.0,0.1,10,55,36,36,4.0,170.0,10
+Shaken Iced Beverages,170,1.5,0.2,0.0,0,45,34,33,3.0,170.0,10
+Shaken Iced Beverages,60,0.0,0.0,0.0,0,0,15,15,0.0,170.0,9
+Shaken Iced Beverages,80,0.0,0.0,0.0,0,0,21,21,0.0,89.52054794520548,8
+Shaken Iced Beverages,120,0.0,0.0,0.0,0,0,31,31,0.0,89.52054794520548,8
+Shaken Iced Beverages,100,0.0,0.0,0.0,0,0,25,24,0.1,89.52054794520548,8
+Shaken Iced Beverages,130,0.0,0.0,0.0,0,0,33,33,0.1,89.52054794520548,8
+Shaken Iced Beverages,190,0.0,0.0,0.0,0,0,49,49,0.1,89.52054794520548,10
+Smoothies,280,2.5,1.5,0.0,5,150,53,34,20.0,89.52054794520548,20
+Smoothies,300,5.0,2.5,0.1,15,160,53,34,20.0,15.0,29
+Smoothies,290,4.5,1.5,0.0,5,150,51,31,19.0,15.0,29
+Smoothies,260,1.0,0.3,0.0,5,120,54,37,16.0,15.0,29
+Smoothies,270,1.5,0.5,0.0,5,125,53,37,16.0,0.0,29
+Smoothies,270,1.5,0.4,0.0,5,120,53,36,15.0,0.0,29
+Smoothies,290,1.0,0.3,0.0,5,125,58,41,16.0,0.0,29
+Smoothies,290,2.0,1.0,0.0,5,125,58,41,16.0,0.0,29
+Smoothies,290,2.0,0.4,0.0,5,120,58,40,16.0,0.0,29
+Frappuccino® Blended Coffee,160,0.1,0.0,0.0,0,160,36,36,3.0,0.0,32
+Frappuccino® Blended Coffee,180,2.5,1.5,0.1,10,160,36,36,3.0,70.0,14
+Frappuccino® Blended Coffee,160,1.5,0.2,0.0,0,150,35,34,2.0,70.0,14
+Frappuccino® Blended Coffee,220,0.1,0.1,0.0,0,210,51,50,4.0,70.0,25
+Frappuccino® Blended Coffee,240,3.0,2.0,0.1,10,220,50,50,3.0,95.0,25
+Frappuccino® Blended Coffee,220,1.5,0.2,0.0,0,210,49,47,3.0,95.0,25
+Frappuccino® Blended Coffee,310,0.1,0.1,0.0,5,300,70,69,6.0,95.0,12
+Frappuccino® Blended Coffee,350,5.0,3.0,0.2,15,300,70,69,5.0,130.0,12
+Frappuccino® Blended Coffee,310,2.5,0.3,0.0,0,300,68,66,5.0,130.0,12
+Frappuccino® Blended Coffee,180,0.5,0.4,0.0,0,150,42,40,3.0,130.0,18
+Frappuccino® Blended Coffee,200,3.0,2.0,0.1,10,160,42,40,3.0,70.0,14
+Frappuccino® Blended Coffee,180,2.0,0.5,0.0,0,150,40,38,3.0,70.0,14
+Frappuccino® Blended Coffee,260,1.0,0.5,0.0,0,220,61,58,4.0,110.0,23
+Frappuccino® Blended Coffee,290,4.0,2.5,0.1,10,220,61,58,4.0,110.0,23
+Frappuccino® Blended Coffee,260,2.5,0.5,0.0,0,220,59,55,4.0,110.0,23
+Frappuccino® Blended Coffee,340,1.0,0.5,0.0,5,300,80,76,7.0,140.0,12
+Frappuccino® Blended Coffee,390,6.0,3.5,0.1,15,300,80,76,6.0,140.0,12
+Frappuccino® Blended Coffee,350,3.0,1.0,0.0,0,290,78,73,6.0,140.0,12
+Frappuccino® Blended Coffee,180,0.1,0.0,0.0,0,160,42,41,3.0,70.0,14
+Frappuccino® Blended Coffee,200,2.5,1.5,0.1,10,160,42,41,3.0,70.0,14
+Frappuccino® Blended Coffee,180,1.5,0.2,0.0,0,150,40,39,2.0,70.0,14
+Frappuccino® Blended Coffee,280,0.1,0.1,0.0,0,220,60,59,4.0,100.0,23
+Frappuccino® Blended Coffee,280,3.5,2.0,0.1,10,220,60,59,3.0,100.0,23
+Frappuccino® Blended Coffee,260,1.5,0.2,0.0,0,220,58,56,3.0,100.0,23
+Frappuccino® Blended Coffee,330,0.1,0.1,0.0,5,290,78,77,5.0,130.0,12
+Frappuccino® Blended Coffee,370,5.0,3.0,0.1,15,300,78,77,5.0,130.0,12
+Frappuccino® Blended Coffee,340,2.5,0.3,0.0,0,290,75,73,5.0,130.0,12
+Frappuccino® Blended Coffee,220,3.0,2.0,0.0,0,170,47,44,4.0,75.0,25
+Frappuccino® Blended Coffee,240,5.0,3.5,0.1,10,170,47,44,4.0,75.0,25
+Frappuccino® Blended Coffee,220,4.0,2.5,0.0,0,170,45,42,3.0,75.0,25
+Frappuccino® Blended Coffee,310,4.0,3.0,0.0,0,250,67,62,5.0,110.0,23
+Frappuccino® Blended Coffee,340,7.0,5.0,0.1,10,250,67,62,5.0,110.0,23
+Frappuccino® Blended Coffee,310,6.0,3.5,0.0,0,240,65,60,4.0,110.0,23
+Frappuccino® Blended Coffee,420,5.0,4.0,0.0,5,340,90,84,7.0,145.0,11
+Frappuccino® Blended Coffee,460,10.0,7.0,0.2,15,340,90,84,7.0,145.0,11
+Frappuccino® Blended Coffee,430,8.0,4.5,0.0,0,330,88,80,6.0,145.0,11
+Frappuccino® Light Blended Coffee,90,0.1,0.0,0.0,0,160,20,19,3.0,70.0,4
+Frappuccino® Light Blended Coffee,120,0.1,0.1,0.0,0,210,26,26,3.0,95.0,14
+Frappuccino® Light Blended Coffee,160,0.1,0.1,0.0,5,270,34,33,5.0,120.0,24
+Frappuccino® Light Blended Coffee,110,0.5,0.4,0.0,0,150,24,23,3.0,70.0,4
+Frappuccino® Light Blended Coffee,150,1.0,0.5,0.0,0,200,33,30,4.0,95.0,14
+Frappuccino® Light Blended Coffee,210,1.0,0.5,0.0,5,280,46,42,6.0,130.0,24
+Frappuccino® Light Blended Coffee,100,0.1,0.0,0.0,0,140,23,23,3.0,65.0,4
+Frappuccino® Light Blended Coffee,150,0.1,0.1,0.0,0,200,33,32,3.0,90.0,14
+Frappuccino® Light Blended Coffee,200,0.1,0.1,0.0,5,270,44,43,5.0,120.0,24
+Frappuccino® Light Blended Coffee,150,3.0,2.0,0.0,0,170,30,27,4.0,70.0,14
+Frappuccino® Light Blended Coffee,220,4.0,3.0,0.0,0,240,43,39,5.0,105.0,25
+Frappuccino® Light Blended Coffee,290,5.0,4.0,0.0,5,320,58,52,7.0,165.0,12
+Frappuccino® Blended Crème,170,0.1,0.1,0.0,0,140,39,38,3.0,0.0,32
+Frappuccino® Blended Crème,190,3.0,1.5,0.1,10,140,38,37,3.0,0.0,32
+Frappuccino® Blended Crème,170,1.5,0.2,0.0,0,135,37,35,3.0,0.0,32
+Frappuccino® Blended Crème,230,0.2,0.1,0.0,0,190,53,52,4.0,0.0,28
+Frappuccino® Blended Crème,260,4.0,2.0,0.1,10,190,53,52,4.0,0.0,28
+Frappuccino® Blended Crème,240,2.0,0.2,0.0,0,180,51,49,3.0,0.0,28
+Frappuccino® Blended Crème,310,0.2,0.1,0.0,5,260,70,69,6.0,0.0,26
+Frappuccino® Blended Crème,350,6.0,3.0,0.2,15,260,70,68,6.0,0.0,26
+Frappuccino® Blended Crème,320,2.903734439834025,0.4,0.0,0,250,67,64,5.0,0.0,26
+Frappuccino® Blended Crème,170,0.1,0.1,0.0,0,160,39,38,4.0,0.0,32
+Frappuccino® Blended Crème,200,3.5,2.0,0.1,10,160,39,38,3.0,0.0,32
+Frappuccino® Blended Crème,180,1.5,0.2,0.0,0,160,37,35,3.0,0.0,32
+Frappuccino® Blended Crème,240,0.1,0.1,0.0,5,230,56,55,5.0,0.0,28
